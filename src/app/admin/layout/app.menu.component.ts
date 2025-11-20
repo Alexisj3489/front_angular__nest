@@ -25,7 +25,7 @@ export class AppMenuComponent implements OnInit {
                 label: 'Invetario',
                 items: [
                     { label: 'Catergoria', icon: 'pi pi-fw pi-id-card', routerLink: ['/admin/categoria'] },
-                    { label: 'Producto', icon: 'pi pi-fw pi-check-square', routerLink: ['/uikit/input'] },
+                    { label: 'Producto', icon: 'pi pi-fw pi-check-square', routerLink: ['/admin/producto'] },
                 ]
             },
             {
